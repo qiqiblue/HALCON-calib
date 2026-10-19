@@ -1,0 +1,7 @@
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.lock text eol=lf
+*.yml text eol=lf
+aarch22 text eol=lf
+aarch24 text eol=lf

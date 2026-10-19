@@ -1,0 +1,234 @@
+{
+  "profile": "aarch22",
+  "recipe_count": 59,
+  "binary_count": 28,
+  "binaries": [
+    {
+      "reference": "abc/0.8.16#a8e106b310820f4db56423971988b696",
+      "package_id": "c93719558cf197f1df5a7f1d071093e26f0e44a0",
+      "package_revision": "605dbd8f24eeb8591b2b6a92c1298b4c",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": null
+    },
+    {
+      "reference": "boost/1.91.0#d29393c1cdb9a000f937504a9d87ef52",
+      "package_id": "25a65e645c72ef0221e720dce3f7f25d9ab7da41",
+      "package_revision": "482f843f147df72f7aba42e34169cc6e",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "BSL-1.0"
+    },
+    {
+      "reference": "bzip2/1.0.8#c470882369c2d95c5c77e970c0c7e321",
+      "package_id": "0e1a2fceee94c04a19f0eb853ff84a1361f8c23e",
+      "package_revision": "4a644675fd7942454796ebcc167f088a",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "bzip2-1.0.6"
+    },
+    {
+      "reference": "cli/2.2.0#9b6871687c93edeeb17735533368b8aa",
+      "package_id": "1403d0638ac116a68473b4fde54b313a299c5fea",
+      "package_revision": "21506172a18e580f7db08c4cd561005b",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "BSL-1.0"
+    },
+    {
+      "reference": "cmake/4.4.0#2b09684068310be03edb1cf4cdfd4272",
+      "package_id": "c93719558cf197f1df5a7f1d071093e26f0e44a0",
+      "package_revision": "64cbe5733476ea75610d0f685e97234f",
+      "context": "build",
+      "upstream": "tea-gitea",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "reference": "egl/system#9d33d024a47d4b3fec1d0fcc7cb2717f",
+      "package_id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "package_revision": "0ba8627bd47edc3a501e8f0eb9a79e5e",
+      "context": "host",
+      "upstream": "conancenter",
+      "license": "MIT"
+    },
+    {
+      "reference": "eigen/3.4.0#f83444f054b28b70b50518df76c67ec8",
+      "package_id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "package_revision": "3d4cb80b19cf7de2d5fd0a2413dab746",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": [
+        "MPL-2.0",
+        "LGPL-3.0-or-later"
+      ]
+    },
+    {
+      "reference": "fmt/12.2.0#39d3cb6c33a6680e7a9ffc2589369273",
+      "package_id": "7143ee889415669caa194a009cbd7d81661810e5",
+      "package_revision": "22255f6035825f8cd19392656f001976",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "MIT"
+    },
+    {
+      "reference": "libbacktrace/cci.20210118#a7691bfccd8caaf66309df196790a5a1",
+      "package_id": "787872f193c5f66ad1bb5aa959d1f2d95f5e2e29",
+      "package_revision": "083791aca1e313e2073d3d16fc46b46d",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "reference": "libunwind/8.0.1#03417f32f2e48e5fa6b668c3beb54d05",
+      "package_id": "6ea2955809ca670348764b611aad8d51bf69f81d",
+      "package_revision": "8fe070225e308f9a5ad1693cf7e7b28c",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "MIT"
+    },
+    {
+      "reference": "libzip/1.11.4#a48bfc03aa00be0c45a963d784442091",
+      "package_id": "6716be5d58b64917a723e321dd4b4665653c85f6",
+      "package_revision": "5bacfa24d046a238b5dd83e32c5750e3",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "reference": "meson/1.10.2#3127af48114e4d66620545afdfcb7759",
+      "package_id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "package_revision": "f54fda458a6ea9fa57bcbb5f76c05bd7",
+      "context": "build",
+      "upstream": "tea-gitea",
+      "license": "Apache-2.0"
+    },
+    {
+      "reference": "ninja/1.13.2#2b8f4b6784be867206e0f533a3ff918f",
+      "package_id": "c93719558cf197f1df5a7f1d071093e26f0e44a0",
+      "package_revision": "7a7687b10717b27ddbfeb6638e0650b8",
+      "context": "build",
+      "upstream": "tea-gitea",
+      "license": "Apache-2.0"
+    },
+    {
+      "reference": "nlohmann_json/3.12.0#4a34b0dc486ef49ccdb5ef0a82eee5db",
+      "package_id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "package_revision": "2ea4b814fc9da53f7cdf5b7d68052688",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "MIT"
+    },
+    {
+      "reference": "opencv/4.13.0#38a6c0333ac55193f568ccd103707e6b",
+      "package_id": "9b213e23fff03855e0d789e3414fcc3d3c404c62",
+      "package_revision": "67a846bdcf241bccad87a8869d6f4067",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "Apache-2.0"
+    },
+    {
+      "reference": "opengl/system#cfcf523b9d2bad75cbf377f56562634c",
+      "package_id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "package_revision": "0ba8627bd47edc3a501e8f0eb9a79e5e",
+      "context": "host",
+      "upstream": "conancenter",
+      "license": "MIT"
+    },
+    {
+      "reference": "pkgconf/2.5.1#3a7c6beb006d5858d224ee34580734d6",
+      "package_id": "6ea2955809ca670348764b611aad8d51bf69f81d",
+      "package_revision": "3bcbc059e5ddc76d48556ae49f7c718d",
+      "context": "build",
+      "upstream": "tea-gitea",
+      "license": "ISC"
+    },
+    {
+      "reference": "qt/6.11.1#b9fdda181e943417d13cb15bc763e0fa",
+      "package_id": "bc16dca4d1d8753a740aafe026276337d83bc242",
+      "package_revision": "75b558001be55ca0f1690523be9f80aa",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "LGPL-3.0-only"
+    },
+    {
+      "reference": "qtnodes/3.0.16#229c9aa5cb366e5af4bc6468027185a1",
+      "package_id": "6de741a4ee0b91ca26a5a78cc68849242610c95d",
+      "package_revision": "1d0a1fab911c25e377bd42ea8a034c86",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "reference": "realman/1.1.1.t2#c5566caac3d2e7d08edd991d9a0ea73a",
+      "package_id": "c93719558cf197f1df5a7f1d071093e26f0e44a0",
+      "package_revision": "de948dea55df7b8cf341fb95c867f587",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": null
+    },
+    {
+      "reference": "spdlog/1.17.0#fe3f8ff98b10f2cc60458315bfaa777b",
+      "package_id": "036a6f5b05e9612deb70cb71d92ec0e0efe5014b",
+      "package_revision": "7f447eeb232d45cdbcad300273ba585c",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "MIT"
+    },
+    {
+      "reference": "tea/1.1.1#f08a4426c2c34fb459f744f62f04db28",
+      "package_id": "d976753a52195b50b07e3e78c7b22d9818d68403",
+      "package_revision": "b9b6c49338a7854c09bbb2d46de7ce42",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "Apache-2.0"
+    },
+    {
+      "reference": "toml11/4.4.0#520b5e754c6cff055da6c995c385fbda",
+      "package_id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "package_revision": "d1bd88faed7f2c66ea0189bbffc7c09d",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "MIT"
+    },
+    {
+      "reference": "woosh/1.3.17#cde51481bc4618b143fbdfa0c63425b3",
+      "package_id": "c93719558cf197f1df5a7f1d071093e26f0e44a0",
+      "package_revision": "1dbbe46255d9f88cc17bbee9acd86e8c",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": null
+    },
+    {
+      "reference": "xkbcommon/1.5.0#0c9c2e7bc05bda7b40ebd8d7fe6b5830",
+      "package_id": "44a9203f17c6928dd933e17b39e632f07ac80e3b",
+      "package_revision": "fbe606793d30cfc3a1ffe371747caddb",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "MIT"
+    },
+    {
+      "reference": "xkeyboard-config/system#74aea985b91f987b93b220b44963d7ed",
+      "package_id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "package_revision": "0ba8627bd47edc3a501e8f0eb9a79e5e",
+      "context": "host",
+      "upstream": "conancenter",
+      "license": "MIT"
+    },
+    {
+      "reference": "xorg/system#87ea3cbfa907ff490f4ece2f5fa3dbb9",
+      "package_id": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "package_revision": "0ba8627bd47edc3a501e8f0eb9a79e5e",
+      "context": "host",
+      "upstream": "conancenter",
+      "license": "MIT"
+    },
+    {
+      "reference": "zlib/1.3.2#1cb806da49011867778ffb6ac7190fcb",
+      "package_id": "787872f193c5f66ad1bb5aa959d1f2d95f5e2e29",
+      "package_revision": "0c1edff73ad3bc5bf3656bc5b063b9d4",
+      "context": "host",
+      "upstream": "tea-gitea",
+      "license": "Zlib"
+    }
+  ]
+}

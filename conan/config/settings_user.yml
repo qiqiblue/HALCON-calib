@@ -1,0 +1,3 @@
+os:
+    Linux:
+        distro: [ubuntu22, ubuntu24]

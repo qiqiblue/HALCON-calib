@@ -1,0 +1,1216 @@
+{
+  "Local Cache": {
+    "cli/2.2.0": {
+      "revisions": {
+        "9b6871687c93edeeb17735533368b8aa": {
+          "timestamp": 1784802075.0,
+          "packages": {
+            "f68b0e6c71bafe5d19ecc37cc3c6266ace2c8f23": {
+              "revisions": {
+                "9770381138019e8e30adbc05f279af33": {
+                  "timestamp": 1784801889.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.cppstd": "17",
+                  "compiler.libcxx": "libstdc++11",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "cmake/4.4.0": {
+      "revisions": {
+        "2b09684068310be03edb1cf4cdfd4272": {
+          "timestamp": 1784799971.0,
+          "packages": {
+            "c93719558cf197f1df5a7f1d071093e26f0e44a0": {
+              "revisions": {
+                "64cbe5733476ea75610d0f685e97234f": {
+                  "timestamp": 1784799971.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "arch": "armv8"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "pkgconf/2.5.1": {
+      "revisions": {
+        "3a7c6beb006d5858d224ee34580734d6": {
+          "timestamp": 1784828055.0,
+          "packages": {
+            "f99c0fb101177942ef50be01d9a6372ad686f55c": {
+              "revisions": {
+                "76d5bc8b7022876633110a449298af6c": {
+                  "timestamp": 1784828055.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "meson/1.10.2": {
+      "revisions": {
+        "3127af48114e4d66620545afdfcb7759": {
+          "timestamp": 1784831798.0,
+          "packages": {
+            "da39a3ee5e6b4b0d3255bfef95601890afd80709": {
+              "revisions": {
+                "f54fda458a6ea9fa57bcbb5f76c05bd7": {
+                  "timestamp": 1784831798.0
+                }
+              },
+              "info": {}
+            }
+          }
+        }
+      }
+    },
+    "ninja/1.13.2": {
+      "revisions": {
+        "2b8f4b6784be867206e0f533a3ff918f": {
+          "timestamp": 1784800137.0,
+          "packages": {
+            "c93719558cf197f1df5a7f1d071093e26f0e44a0": {
+              "revisions": {
+                "7a7687b10717b27ddbfeb6638e0650b8": {
+                  "timestamp": 1784800137.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "arch": "armv8"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "spdlog/1.17.0": {
+      "revisions": {
+        "fe3f8ff98b10f2cc60458315bfaa777b": {
+          "timestamp": 1787150467.0,
+          "packages": {
+            "8c455451de02a7ffd571c205480d870c74b6b749": {
+              "revisions": {
+                "cc07ec0cbf35a07f013ce318df876cae": {
+                  "timestamp": 1787149673.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.cppstd": "17",
+                  "compiler.libcxx": "libstdc++11",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "header_only": "False",
+                  "no_exceptions": "False",
+                  "shared": "True",
+                  "use_std_fmt": "False"
+                },
+                "requires": [
+                  "fmt/12.2.Z"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "fmt/12.2.0": {
+      "revisions": {
+        "39d3cb6c33a6680e7a9ffc2589369273": {
+          "timestamp": 1787142485.0,
+          "packages": {
+            "d2564ec658fed9ceb4b8c9e73ee6e6bafecb4365": {
+              "revisions": {
+                "21dec5de16a9211fd96dfbb3056f2f96": {
+                  "timestamp": 1787142485.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.cppstd": "17",
+                  "compiler.libcxx": "libstdc++11",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "header_only": "False",
+                  "shared": "True"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tea/1.1.1": {
+      "revisions": {
+        "f08a4426c2c34fb459f744f62f04db28": {
+          "timestamp": 1788539668.0,
+          "packages": {
+            "20eb656ed9f046967d6f95325ad7fee7d6fee455": {
+              "revisions": {
+                "0b925792b2c234ab6ecb362e092ebe7d": {
+                  "timestamp": 1788539668.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.cppstd": "17",
+                  "compiler.libcxx": "libstdc++11",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "shared": "True"
+                },
+                "requires": [
+                  "boost/1.91.0#d29393c1cdb9a000f937504a9d87ef52:52a2d43684ab0ccb0cb04997dab9bf35077c148f",
+                  "bzip2/1.0.8#c470882369c2d95c5c77e970c0c7e321:dcdf04291eb2fb98fe2505fd86fe93affd2f056c",
+                  "libbacktrace/cci.20210118#a7691bfccd8caaf66309df196790a5a1:c6768dc2b69ccc635f15ba6b52b4dfa808221cd7",
+                  "eigen/3.4.0#f83444f054b28b70b50518df76c67ec8:da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                  "libzip/1.11.Z",
+                  "zlib/1.3.2#1cb806da49011867778ffb6ac7190fcb:c6768dc2b69ccc635f15ba6b52b4dfa808221cd7",
+                  "nlohmann_json/3.12.0#4a34b0dc486ef49ccdb5ef0a82eee5db:da39a3ee5e6b4b0d3255bfef95601890afd80709",
+                  "spdlog/1.17.Z",
+                  "fmt/12.2.Z",
+                  "toml11/4.4.0#520b5e754c6cff055da6c995c385fbda:da39a3ee5e6b4b0d3255bfef95601890afd80709"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "boost/1.91.0": {
+      "revisions": {
+        "d29393c1cdb9a000f937504a9d87ef52": {
+          "timestamp": 1785498932.0,
+          "packages": {
+            "52a2d43684ab0ccb0cb04997dab9bf35077c148f": {
+              "revisions": {
+                "308b305d11512b3cf27e763a25190dbb": {
+                  "timestamp": 1785498932.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.cppstd": "17",
+                  "compiler.libcxx": "libstdc++11",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "addr2line_location": "/usr/bin/addr2line",
+                  "asio_no_deprecated": "False",
+                  "buildid": null,
+                  "bzip2": "True",
+                  "diagnostic_definitions": "False",
+                  "error_code_header_only": "False",
+                  "extra_b2_flags": null,
+                  "fPIC": "True",
+                  "filesystem_no_deprecated": "False",
+                  "filesystem_use_std_fs": "False",
+                  "header_only": "False",
+                  "i18n_backend_iconv": "libc",
+                  "i18n_backend_icu": "False",
+                  "layout": "system",
+                  "lzma": "False",
+                  "magic_autolink": "False",
+                  "multithreading": "True",
+                  "namespace": "boost",
+                  "namespace_alias": "False",
+                  "numa": "True",
+                  "segmented_stacks": "False",
+                  "shared": "False",
+                  "system_no_deprecated": "False",
+                  "visibility": "hidden",
+                  "with_stacktrace_backtrace": "True",
+                  "without_atomic": "False",
+                  "without_charconv": "False",
+                  "without_chrono": "False",
+                  "without_cobalt": "True",
+                  "without_container": "False",
+                  "without_context": "False",
+                  "without_contract": "False",
+                  "without_coroutine": "False",
+                  "without_date_time": "False",
+                  "without_exception": "False",
+                  "without_fiber": "False",
+                  "without_filesystem": "False",
+                  "without_graph": "False",
+                  "without_graph_parallel": "True",
+                  "without_iostreams": "False",
+                  "without_json": "False",
+                  "without_locale": "False",
+                  "without_log": "False",
+                  "without_math": "False",
+                  "without_mpi": "True",
+                  "without_nowide": "False",
+                  "without_process": "False",
+                  "without_program_options": "False",
+                  "without_python": "True",
+                  "without_random": "False",
+                  "without_regex": "False",
+                  "without_serialization": "False",
+                  "without_stacktrace": "False",
+                  "without_test": "False",
+                  "without_thread": "False",
+                  "without_timer": "False",
+                  "without_type_erasure": "False",
+                  "without_url": "False",
+                  "without_wave": "False",
+                  "zlib": "True",
+                  "zstd": "False"
+                },
+                "requires": [
+                  "zlib/1.3.Z",
+                  "bzip2/1.0.Z",
+                  "libbacktrace/cci"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "zlib/1.3.2": {
+      "revisions": {
+        "1cb806da49011867778ffb6ac7190fcb": {
+          "timestamp": 1784803596.0,
+          "packages": {
+            "c6768dc2b69ccc635f15ba6b52b4dfa808221cd7": {
+              "revisions": {
+                "468a48e258a6075a8d2e6c0ad2852164": {
+                  "timestamp": 1784803525.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "fPIC": "True",
+                  "shared": "False"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "bzip2/1.0.8": {
+      "revisions": {
+        "c470882369c2d95c5c77e970c0c7e321": {
+          "timestamp": 1784803585.0,
+          "packages": {
+            "dcdf04291eb2fb98fe2505fd86fe93affd2f056c": {
+              "revisions": {
+                "ce94ea82783245d9568962ba8bc550c4": {
+                  "timestamp": 1784803514.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "build_executable": "True",
+                  "fPIC": "True",
+                  "shared": "False"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "libbacktrace/cci.20210118": {
+      "revisions": {
+        "a7691bfccd8caaf66309df196790a5a1": {
+          "timestamp": 1785498938.0,
+          "packages": {
+            "c6768dc2b69ccc635f15ba6b52b4dfa808221cd7": {
+              "revisions": {
+                "a85d2b881296438e89f024c2874e7ed1": {
+                  "timestamp": 1785498938.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "fPIC": "True",
+                  "shared": "False"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "b2/5.5.3": {
+      "revisions": {
+        "043a75bcbb090e3f81f7ac849850d0ca": {
+          "timestamp": 1784261134.143
+        }
+      }
+    },
+    "eigen/3.4.0": {
+      "revisions": {
+        "f83444f054b28b70b50518df76c67ec8": {
+          "timestamp": 1785492810.0,
+          "packages": {
+            "da39a3ee5e6b4b0d3255bfef95601890afd80709": {
+              "revisions": {
+                "3d4cb80b19cf7de2d5fd0a2413dab746": {
+                  "timestamp": 1785492810.0
+                }
+              },
+              "info": {}
+            }
+          }
+        }
+      }
+    },
+    "libzip/1.11.4": {
+      "revisions": {
+        "a48bfc03aa00be0c45a963d784442091": {
+          "timestamp": 1787152553.0,
+          "packages": {
+            "f6c455ffab6c4661bda218efd3f676fad34326a7": {
+              "revisions": {
+                "bd9a716e3eb7b5db8d714048fdbd5349": {
+                  "timestamp": 1787149287.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "crypto": "False",
+                  "shared": "True",
+                  "tools": "False",
+                  "with_bzip2": "False",
+                  "with_lzma": "False",
+                  "with_zstd": "False"
+                },
+                "requires": [
+                  "zlib/1.3.2#1cb806da49011867778ffb6ac7190fcb:c6768dc2b69ccc635f15ba6b52b4dfa808221cd7"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "nlohmann_json/3.12.0": {
+      "revisions": {
+        "4a34b0dc486ef49ccdb5ef0a82eee5db": {
+          "timestamp": 1784800799.0,
+          "packages": {
+            "da39a3ee5e6b4b0d3255bfef95601890afd80709": {
+              "revisions": {
+                "2ea4b814fc9da53f7cdf5b7d68052688": {
+                  "timestamp": 1784800799.0
+                }
+              },
+              "info": {}
+            }
+          }
+        }
+      }
+    },
+    "toml11/4.4.0": {
+      "revisions": {
+        "520b5e754c6cff055da6c995c385fbda": {
+          "timestamp": 1784800791.0,
+          "packages": {
+            "da39a3ee5e6b4b0d3255bfef95601890afd80709": {
+              "revisions": {
+                "d1bd88faed7f2c66ea0189bbffc7c09d": {
+                  "timestamp": 1784800791.0
+                }
+              },
+              "info": {}
+            }
+          }
+        }
+      }
+    },
+    "qt/6.11.1": {
+      "revisions": {
+        "b9fdda181e943417d13cb15bc763e0fa": {
+          "timestamp": 1788835492.0,
+          "packages": {
+            "76be8a1de0bed07db93bdcdeb13e1784cb144704": {
+              "revisions": {
+                "89f3264976c99b1a63c864c55ec46e6b": {
+                  "timestamp": 1788835492.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.cppstd": "17",
+                  "compiler.libcxx": "libstdc++11",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "device": null,
+                  "disabled_features": "",
+                  "gui": "True",
+                  "multiconfiguration": "False",
+                  "opengl": "desktop",
+                  "openssl": "True",
+                  "qt3d": "False",
+                  "qt5compat": "False",
+                  "qtactiveqt": "False",
+                  "qtcanvaspainter": "False",
+                  "qtcharts": "True",
+                  "qtcoap": "False",
+                  "qtconnectivity": "False",
+                  "qtdatavis3d": "False",
+                  "qtdeclarative": "True",
+                  "qtdoc": "False",
+                  "qtgraphs": "True",
+                  "qtgrpc": "False",
+                  "qthttpserver": "False",
+                  "qtimageformats": "False",
+                  "qtlanguageserver": "False",
+                  "qtlocation": "False",
+                  "qtlottie": "False",
+                  "qtmqtt": "False",
+                  "qtmultimedia": "False",
+                  "qtnetworkauth": "False",
+                  "qtopcua": "False",
+                  "qtopenapi": "False",
+                  "qtpositioning": "False",
+                  "qtquick3d": "True",
+                  "qtquick3dphysics": "False",
+                  "qtquickeffectmaker": "False",
+                  "qtquicktimeline": "False",
+                  "qtremoteobjects": "False",
+                  "qtscxml": "False",
+                  "qtsensors": "False",
+                  "qtserialbus": "False",
+                  "qtserialport": "False",
+                  "qtshadertools": "True",
+                  "qtspeech": "False",
+                  "qtsvg": "False",
+                  "qttasktree": "False",
+                  "qttools": "False",
+                  "qttranslations": "False",
+                  "qtvirtualkeyboard": "False",
+                  "qtwayland": "True",
+                  "qtwebchannel": "False",
+                  "qtwebengine": "False",
+                  "qtwebsockets": "False",
+                  "qtwebview": "False",
+                  "shared": "True",
+                  "widgets": "True",
+                  "with_brotli": "True",
+                  "with_dbus": "True",
+                  "with_doubleconversion": "True",
+                  "with_egl": "True",
+                  "with_fontconfig": "True",
+                  "with_freetype": "True",
+                  "with_glib": "False",
+                  "with_gssapi": "False",
+                  "with_harfbuzz": "True",
+                  "with_icu": "True",
+                  "with_libjpeg": "False",
+                  "with_libpng": "True",
+                  "with_md4c": "True",
+                  "with_mysql": "False",
+                  "with_odbc": "False",
+                  "with_pcre2": "True",
+                  "with_pq": "False",
+                  "with_sqlite3": "False",
+                  "with_vulkan": "False",
+                  "with_x11": "True",
+                  "with_zstd": "False"
+                },
+                "requires": [
+                  "openssl/3.6.3#a81313131c78c6414f25b5fe0a83204b:5ac2a8afb4f4a974ea7f0befe012a7012acd03c4",
+                  "double-conversion/3.3.0#6ad026cf92c316c476919f7f152072d7:9e87f51e804788237723af620d026c5cc7b3e847",
+                  "fontconfig/2.15.0#5d752580de3d735bcdd66db6b7ef4fb2:6f20b04f512f353ae480cb3f9bc4adb3b2800c3d",
+                  "icu/74.2#be852764f7cd67c44e637f674e2c3e98:3d93459c363eb9811d188bebf8039da42efb9872",
+                  "harfbuzz/12.3.0#a5fef061896cd5c30e9a17c9d7920ad1:b193347f5d6b7c0c795948d894dfdb7135fd3638",
+                  "freetype/2.14.3#36c4956052612c947f9ce11e074bda51:634429eb1bb494c04f3b57e44caa30eca40b8f1a",
+                  "glib/2.86.5#2886b0810a99a7d54b313db5d214f221:1c1ddb0d3b460b05babfd55776c08eb710b9686b",
+                  "elfutils/0.190#16f6b17798a2603cd071f609d5aa3a34:cc64667920ff2977c2f0a6e6284a36b4f311fc70",
+                  "libmount/2.39.2#64850679fa9d5ead878e5076b0cab2a8:c6768dc2b69ccc635f15ba6b52b4dfa808221cd7",
+                  "libselinux/3.6#5a78ff6ae5034eeaac8da723361a8ce4:d82d55f574232fe8371ba184a7230f65f8353388",
+                  "pcre2/10.42#a0b25dffca18f5987304619e9c93fb44:aafb9f3bb49397d67c7d69d6ba6307b8e51183d4",
+                  "bzip2/1.0.8#c470882369c2d95c5c77e970c0c7e321:dcdf04291eb2fb98fe2505fd86fe93affd2f056c",
+                  "libpng/1.6.58#19cb72905ae54f54948401f753faa2c1:c7ffaffc74527bb5e1790c7d01f64158aa129d8b",
+                  "xkbcommon/1.5.0#0c9c2e7bc05bda7b40ebd8d7fe6b5830:879331ad292f10cabb36b82ed667a9f0b4ca80a0",
+                  "xorg/system",
+                  "egl/system",
+                  "opengl/system",
+                  "wayland/1.24.0#ac40d5647b1ce948e185c1a849f63cb6:719f1d84ad30a626a2f167f4493100d4a0415cf0",
+                  "libffi/3.4.8#a045c00fb26779635e3bed40e80c5254:c6768dc2b69ccc635f15ba6b52b4dfa808221cd7",
+                  "libxml2/2.15.3#3406c6d8d327e9b84c0c894feb859514:54279ed1780a285bbe04adb779fe62dc2420ed08",
+                  "libiconv/1.17#9923bc6dc6f106646d6967e0039a5ada:c6768dc2b69ccc635f15ba6b52b4dfa808221cd7",
+                  "zlib/1.3.2#1cb806da49011867778ffb6ac7190fcb:c6768dc2b69ccc635f15ba6b52b4dfa808221cd7",
+                  "brotli/1.1.0#3f631ef77008f7b5eb388780116371a3:b58977140c4132d3a2fd3b37c4e14f5aedbadfa0",
+                  "dbus/1.15.8#3cdcb97b51b7f931f9f11c57d8409845:3d731e14898b186c165480f8e7e687925bc3a25d",
+                  "expat/2.8.2#47bed4455ba060e4104dc20d6a448c34:0b58940141d1e7d35fa7d70b416d9dd6494d646f",
+                  "md4c/0.5.2#3d7106721e458f9f799b87d4d50d02e0:370d2b2a2e83c11916558e30a1fe09a67f5a0ff8"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "openssl/3.6.3": {
+      "revisions": {
+        "a81313131c78c6414f25b5fe0a83204b": {
+          "timestamp": 1784830009.0
+        }
+      }
+    },
+    "pcre2/10.42": {
+      "revisions": {
+        "a0b25dffca18f5987304619e9c93fb44": {
+          "timestamp": 1784830011.0
+        }
+      }
+    },
+    "double-conversion/3.3.0": {
+      "revisions": {
+        "6ad026cf92c316c476919f7f152072d7": {
+          "timestamp": 1784829889.0
+        }
+      }
+    },
+    "freetype/2.14.3": {
+      "revisions": {
+        "36c4956052612c947f9ce11e074bda51": {
+          "timestamp": 1784832382.0
+        }
+      }
+    },
+    "libpng/1.6.58": {
+      "revisions": {
+        "19cb72905ae54f54948401f753faa2c1": {
+          "timestamp": 1784806173.0
+        }
+      }
+    },
+    "brotli/1.1.0": {
+      "revisions": {
+        "3f631ef77008f7b5eb388780116371a3": {
+          "timestamp": 1784828286.0
+        }
+      }
+    },
+    "fontconfig/2.15.0": {
+      "revisions": {
+        "5d752580de3d735bcdd66db6b7ef4fb2": {
+          "timestamp": 1784829895.0
+        }
+      }
+    },
+    "expat/2.8.2": {
+      "revisions": {
+        "47bed4455ba060e4104dc20d6a448c34": {
+          "timestamp": 1784829892.0
+        }
+      }
+    },
+    "gperf/3.1": {
+      "revisions": {
+        "a7afdf8f7cccdc2dcd4d962370c33d4f": {
+          "timestamp": 1755780571.156
+        }
+      }
+    },
+    "icu/74.2": {
+      "revisions": {
+        "be852764f7cd67c44e637f674e2c3e98": {
+          "timestamp": 1784829981.0
+        }
+      }
+    },
+    "harfbuzz/12.3.0": {
+      "revisions": {
+        "a5fef061896cd5c30e9a17c9d7920ad1": {
+          "timestamp": 1785469025.0
+        }
+      }
+    },
+    "glib/2.86.5": {
+      "revisions": {
+        "2886b0810a99a7d54b313db5d214f221": {
+          "timestamp": 1785469011.0
+        }
+      }
+    },
+    "libffi/3.4.8": {
+      "revisions": {
+        "a045c00fb26779635e3bed40e80c5254": {
+          "timestamp": 1784829983.0
+        }
+      }
+    },
+    "elfutils/0.190": {
+      "revisions": {
+        "16f6b17798a2603cd071f609d5aa3a34": {
+          "timestamp": 1785472828.0
+        }
+      }
+    },
+    "gettext/0.22.5": {
+      "revisions": {
+        "2f6edba611e8db1a8a18488b116e8c2a": {
+          "timestamp": 1765299121.036
+        }
+      }
+    },
+    "libiconv/1.17": {
+      "revisions": {
+        "9923bc6dc6f106646d6967e0039a5ada": {
+          "timestamp": 1784829985.0
+        }
+      }
+    },
+    "automake/1.16.5": {
+      "revisions": {
+        "b91b7c384c3deaa9d535be02da14d04f": {
+          "timestamp": 1755524470.56
+        }
+      }
+    },
+    "autoconf/2.71": {
+      "revisions": {
+        "51077f068e61700d65bb05541ea1e4b0": {
+          "timestamp": 1731054366.86
+        }
+      }
+    },
+    "m4/1.4.19": {
+      "revisions": {
+        "1727f439cf74e83826ec96d0b4904eee": {
+          "timestamp": 1784541921.659
+        }
+      }
+    },
+    "flex/2.6.4": {
+      "revisions": {
+        "efa781fc5088b47c895bd4eef6911f2e": {
+          "timestamp": 1761560242.855
+        }
+      }
+    },
+    "gnu-config/cci.20210814": {
+      "revisions": {
+        "466e9d4d7779e1c142443f7ea44b4284": {
+          "timestamp": 1762363589.329
+        }
+      }
+    },
+    "bison/3.8.2": {
+      "revisions": {
+        "c3490cbe0078b6fd3eb4cf5ed64144dc": {
+          "timestamp": 1755688988.644
+        }
+      }
+    },
+    "libmount/2.39.2": {
+      "revisions": {
+        "64850679fa9d5ead878e5076b0cab2a8": {
+          "timestamp": 1784829988.0
+        }
+      }
+    },
+    "libselinux/3.6": {
+      "revisions": {
+        "5a78ff6ae5034eeaac8da723361a8ce4": {
+          "timestamp": 1784829992.0
+        }
+      }
+    },
+    "xkbcommon/1.5.0": {
+      "revisions": {
+        "0c9c2e7bc05bda7b40ebd8d7fe6b5830": {
+          "timestamp": 1784830043.0,
+          "packages": {
+            "879331ad292f10cabb36b82ed667a9f0b4ca80a0": {
+              "revisions": {
+                "1d3a60498d7f29d47157ccdfc2ffcf0a": {
+                  "timestamp": 1784830043.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "fPIC": "True",
+                  "shared": "False",
+                  "with_wayland": "True",
+                  "with_x11": "True",
+                  "xkbregistry": "True"
+                },
+                "requires": [
+                  "xorg/system",
+                  "wayland/1.24.Z",
+                  "libffi/3.4.Z",
+                  "libxml2/2.15.Z",
+                  "libiconv/1.17.Z",
+                  "zlib/1.3.Z",
+                  "expat/2.8.Z"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "xkeyboard-config/system": {
+      "revisions": {
+        "74aea985b91f987b93b220b44963d7ed": {
+          "timestamp": 1755758035.041,
+          "packages": {
+            "da39a3ee5e6b4b0d3255bfef95601890afd80709": {
+              "revisions": {
+                "0ba8627bd47edc3a501e8f0eb9a79e5e": {
+                  "timestamp": 1755758088.75
+                }
+              },
+              "info": {}
+            }
+          }
+        }
+      }
+    },
+    "xorg/system": {
+      "revisions": {
+        "87ea3cbfa907ff490f4ece2f5fa3dbb9": {
+          "timestamp": 1781197504.821,
+          "packages": {
+            "da39a3ee5e6b4b0d3255bfef95601890afd80709": {
+              "revisions": {
+                "0ba8627bd47edc3a501e8f0eb9a79e5e": {
+                  "timestamp": 1781197662.215
+                }
+              },
+              "info": {}
+            }
+          }
+        }
+      }
+    },
+    "libxml2/2.15.3": {
+      "revisions": {
+        "3406c6d8d327e9b84c0c894feb859514": {
+          "timestamp": 1784829996.0
+        }
+      }
+    },
+    "wayland/1.24.0": {
+      "revisions": {
+        "ac40d5647b1ce948e185c1a849f63cb6": {
+          "timestamp": 1784830039.0
+        }
+      }
+    },
+    "wayland-protocols/1.45": {
+      "revisions": {
+        "79bbdf84ebb0fcc3353686529e0a2322": {
+          "timestamp": 1757598410.756
+        }
+      }
+    },
+    "egl/system": {
+      "revisions": {
+        "9d33d024a47d4b3fec1d0fcc7cb2717f": {
+          "timestamp": 1781079532.965,
+          "packages": {
+            "da39a3ee5e6b4b0d3255bfef95601890afd80709": {
+              "revisions": {
+                "0ba8627bd47edc3a501e8f0eb9a79e5e": {
+                  "timestamp": 1781079581.433
+                }
+              },
+              "info": {}
+            }
+          }
+        }
+      }
+    },
+    "opengl/system": {
+      "revisions": {
+        "cfcf523b9d2bad75cbf377f56562634c": {
+          "timestamp": 1762526044.744,
+          "packages": {
+            "da39a3ee5e6b4b0d3255bfef95601890afd80709": {
+              "revisions": {
+                "0ba8627bd47edc3a501e8f0eb9a79e5e": {
+                  "timestamp": 1762526119.959
+                }
+              },
+              "info": {}
+            }
+          }
+        }
+      }
+    },
+    "dbus/1.15.8": {
+      "revisions": {
+        "3cdcb97b51b7f931f9f11c57d8409845": {
+          "timestamp": 1788835402.0
+        }
+      }
+    },
+    "md4c/0.5.2": {
+      "revisions": {
+        "3d7106721e458f9f799b87d4d50d02e0": {
+          "timestamp": 1784829997.0
+        }
+      }
+    },
+    "opencv/4.13.0": {
+      "revisions": {
+        "38a6c0333ac55193f568ccd103707e6b": {
+          "timestamp": 1787162088.0,
+          "packages": {
+            "d55cbd7f3756eb96a454b50dadfa87310a28919c": {
+              "revisions": {
+                "39ef9394fea8d1dd82a69b07114bd3de": {
+                  "timestamp": 1787162088.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.cppstd": "17",
+                  "compiler.libcxx": "libstdc++11",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "alphamat": "False",
+                  "aruco": "False",
+                  "bgsegm": "False",
+                  "bioinspired": "False",
+                  "calib3d": "True",
+                  "ccalib": "False",
+                  "cpu_baseline": null,
+                  "cpu_dispatch": null,
+                  "cudaarithm": "False",
+                  "cudabgsegm": "False",
+                  "cudacodec": "False",
+                  "cudafeatures2d": "False",
+                  "cudafilters": "False",
+                  "cudaimgproc": "False",
+                  "cudalegacy": "False",
+                  "cudaobjdetect": "False",
+                  "cudaoptflow": "False",
+                  "cudastereo": "False",
+                  "cudawarping": "False",
+                  "cvv": "False",
+                  "datasets": "False",
+                  "dnn": "False",
+                  "dnn_objdetect": "False",
+                  "dnn_superres": "False",
+                  "dpm": "False",
+                  "face": "False",
+                  "features2d": "True",
+                  "flann": "True",
+                  "freetype": "False",
+                  "fuzzy": "False",
+                  "gapi": "False",
+                  "hdf": "False",
+                  "hfs": "False",
+                  "highgui": "False",
+                  "img_hash": "False",
+                  "imgcodecs": "True",
+                  "imgproc": "True",
+                  "intensity_transform": "False",
+                  "line_descriptor": "False",
+                  "mcc": "False",
+                  "ml": "True",
+                  "nonfree": "False",
+                  "objdetect": "True",
+                  "optflow": "False",
+                  "ovis": "False",
+                  "parallel": "False",
+                  "phase_unwrapping": "False",
+                  "photo": "True",
+                  "plot": "False",
+                  "quality": "False",
+                  "rapid": "False",
+                  "reg": "False",
+                  "rgbd": "False",
+                  "saliency": "False",
+                  "sfm": "False",
+                  "shape": "False",
+                  "shared": "True",
+                  "stereo": "False",
+                  "stitching": "False",
+                  "structured_light": "False",
+                  "superres": "False",
+                  "surface_matching": "False",
+                  "text": "False",
+                  "tracking": "False",
+                  "video": "False",
+                  "videoio": "False",
+                  "videostab": "False",
+                  "viz": "False",
+                  "wechat_qrcode": "False",
+                  "with_avif": "False",
+                  "with_cuda": "False",
+                  "with_eigen": "False",
+                  "with_gdal": "False",
+                  "with_gdcm": "False",
+                  "with_imgcodec_hdr": "True",
+                  "with_imgcodec_pfm": "True",
+                  "with_imgcodec_pxm": "True",
+                  "with_imgcodec_sunraster": "True",
+                  "with_ipp": "False",
+                  "with_jpeg": "libjpeg",
+                  "with_jpeg2000": "False",
+                  "with_opencl": "False",
+                  "with_openexr": "False",
+                  "with_png": "True",
+                  "with_quirc": "False",
+                  "with_tiff": "False",
+                  "with_webp": "False",
+                  "world": "False",
+                  "xfeatures2d": "False",
+                  "ximgproc": "False",
+                  "xobjdetect": "False",
+                  "xphoto": "False"
+                },
+                "requires": [
+                  "libjpeg/9f#8b1b89da851ad9172565c35f14e23c4c:c6768dc2b69ccc635f15ba6b52b4dfa808221cd7",
+                  "libpng/1.6.58#19cb72905ae54f54948401f753faa2c1:c7ffaffc74527bb5e1790c7d01f64158aa129d8b",
+                  "zlib/1.3.2#1cb806da49011867778ffb6ac7190fcb:c6768dc2b69ccc635f15ba6b52b4dfa808221cd7"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "libjpeg/9f": {
+      "revisions": {
+        "8b1b89da851ad9172565c35f14e23c4c": {
+          "timestamp": 1784806171.0
+        }
+      }
+    },
+    "abc/0.8.16": {
+      "revisions": {
+        "a8e106b310820f4db56423971988b696": {
+          "timestamp": 1787565176.0,
+          "packages": {
+            "c93719558cf197f1df5a7f1d071093e26f0e44a0": {
+              "revisions": {
+                "605dbd8f24eeb8591b2b6a92c1298b4c": {
+                  "timestamp": 1787565176.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "arch": "armv8"
+                },
+                "requires": [
+                  "",
+                  ""
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "realman/1.1.1.t2": {
+      "revisions": {
+        "c5566caac3d2e7d08edd991d9a0ea73a": {
+          "timestamp": 1787555271.0,
+          "packages": {
+            "c93719558cf197f1df5a7f1d071093e26f0e44a0": {
+              "revisions": {
+                "de948dea55df7b8cf341fb95c867f587": {
+                  "timestamp": 1787555271.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "arch": "armv8"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "libunwind/8.0.1": {
+      "revisions": {
+        "03417f32f2e48e5fa6b668c3beb54d05": {
+          "timestamp": 1784866470.0,
+          "packages": {
+            "f99c0fb101177942ef50be01d9a6372ad686f55c": {
+              "revisions": {
+                "9352051894111d6469b87bed6e70fead": {
+                  "timestamp": 1784866467.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "woosh/1.3.17": {
+      "revisions": {
+        "cde51481bc4618b143fbdfa0c63425b3": {
+          "timestamp": 1787578682.0,
+          "packages": {
+            "c93719558cf197f1df5a7f1d071093e26f0e44a0": {
+              "revisions": {
+                "1dbbe46255d9f88cc17bbee9acd86e8c": {
+                  "timestamp": 1787578682.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "arch": "armv8"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "qtnodes/3.0.16": {
+      "revisions": {
+        "229c9aa5cb366e5af4bc6468027185a1": {
+          "timestamp": 1788548990.0,
+          "packages": {
+            "5192b158509ee275c071ae1c1e8e6c4c8f0c6e26": {
+              "revisions": {
+                "f429dd5c7f73ecf50410696451169de2": {
+                  "timestamp": 1788548990.0
+                }
+              },
+              "info": {
+                "settings": {
+                  "os": "Linux",
+                  "os.distro": "ubuntu24",
+                  "arch": "armv8",
+                  "compiler": "clang",
+                  "compiler.cppstd": "17",
+                  "compiler.libcxx": "libstdc++11",
+                  "compiler.version": "18",
+                  "build_type": "MinSizeRel"
+                },
+                "options": {
+                  "shared": "True",
+                  "with_tests": "False"
+                },
+                "requires": [
+                  "qt/6.11.Z"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

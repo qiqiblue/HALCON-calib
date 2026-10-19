@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "conan_version": "2.30.0",
+  "source_repository": "ssh://git@git.ai2rob.com:8022/zhangmuyuan/bot2_calib.git",
+  "source_commit": "83217cb634313cca1280767bcc75b9bbe947190f",
+  "release_tag": "conan-deps-20261019",
+  "source_files_sha256_lf": {
+    "app/bot2_calib/conanfile.py": "f4193ea6adb8f0a0a21a365d9a97c98372c07f6f4375c31fbaffc7dfcf0d7448",
+    "share/conan/common.py": "193d50b378409ad7b4548fb39db101f6c3d33853891727f1eb2edd21de2712ac"
+  },
+  "files_sha256_lf": {
+    "consumer/app/bot2_calib/conanfile.py": "f4193ea6adb8f0a0a21a365d9a97c98372c07f6f4375c31fbaffc7dfcf0d7448",
+    "consumer/share/conan/common.py": "193d50b378409ad7b4548fb39db101f6c3d33853891727f1eb2edd21de2712ac",
+    "config/profiles/aarch22": "0431655406e3f719437a004ee337468dd713bd7338f4cb0e942abe3ca1d720bb",
+    "config/profiles/aarch24": "a97b1726146c937a94125f311f31e2a717da4541bc2ae877c1badc3bc6bed6c0",
+    "config/settings_user.yml": "92f69f11936e255e63f6c35f86883dd5ed2c958e5595063f0c71da67543fc251",
+    "locks/aarch22.lock": "0362e6abd31ff55f6db949e78256d9d1e7bb132b7023c8997c6c29cd45d77806",
+    "locks/aarch24.lock": "0362e6abd31ff55f6db949e78256d9d1e7bb132b7023c8997c6c29cd45d77806",
+    "packages/aarch22-conancenter.json": "44677db9ad7e3efa21d28092c809790960aca6165bb997c9be1fc1f41790029b",
+    "packages/aarch22-summary.json": "672fa31bddfa252d1dc86d6ed3b5791af26938d8a78fb8366babd8a2cba5dc54",
+    "packages/aarch22-tea-gitea.json": "9d09ab6ca0e29ce687b6b2dbc8e52e2fb264095bd0f773a9117bf553cf1de8d8",
+    "packages/aarch22.json": "ed2ae7c58cb0be8097b0a0dee38954da04552ebdf45478f7098df84aff1dbab8",
+    "packages/aarch24-conancenter.json": "44677db9ad7e3efa21d28092c809790960aca6165bb997c9be1fc1f41790029b",
+    "packages/aarch24-summary.json": "15628f35a2561f0348a73d76f7fe969e4ca04b735dfd94cc91e99f32d8e0aafb",
+    "packages/aarch24-tea-gitea.json": "0912395ddc0875c312665a6f0792d8f9a31ca327e7a65503f616438da07a9a10",
+    "packages/aarch24.json": "39c37212b256390f113e754c01f3ee013b56414aadf4c20b961f1ff0bb6bc7f3"
+  },
+  "abc_compatibility": {
+    "recipe": "abc/0.8.16#a8e106b310820f4db56423971988b696",
+    "required_realman": "realman/1.1.1.t2",
+    "rejected_newer_abc_recipe": "573a95fc1bc67c2e56b073e9f4d0c979",
+    "reason": "Newer ABC recipe requires RealMan 1.1.6, conflicting with the application SDK."
+  }
+}
