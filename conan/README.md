@@ -116,6 +116,8 @@ CMAKE_BUILD_PARALLEL_LEVEL=2 python3 share/py/build_app.py \
 
 GitHub Actions 的 [Conan 归档工作流](../.github/workflows/conan-mirror.yml) 可手动启动. 它在两个 Ubuntu Linux runner 上分别下载目标 ARM64 包, 使用 Conan 官方 `cache save` 归档, 在全新的缓存中恢复, 检查完整性和离线依赖图. 无需执行 ARM64 程序即可验证包闭包; 这不能代替 ARM64 C++ 编译和机器人运行验证.
 
+归档解析使用 `tools.system.package_manager:mode=report`, 仅记录目标系统依赖, 不在分发机器上安装 ARM64 系统包. 机器人实际安装则使用 `mode=check`, 不跳过目标系统依赖检查.
+
 两个平台均通过后才发布 Release. 下载或校验失败不会发布成功版本. 日常机器人安装不依赖私有 Conan 源; 维护者重新生成归档时仍需要访问原始上游. 所有上游包保留其原有许可证和包内声明. 不加入 HALCON 许可证、GitHub/Conan 凭据或机器人配置数据.
 
 本次验证状态以 Release 中两个 `*.manifest.json` 的 validation 字段和对应 Actions 执行结果为准. 不将静态清单检查称为目标编译或硬件通过.

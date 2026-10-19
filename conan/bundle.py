@@ -57,7 +57,8 @@ def run(executable, *args, env=None):
 def graph_args(profile, source):
     return ["graph", "info", source, f"--profile:host={profile}",
             f"--profile:build={profile}", "--build=never",
-            f"--lockfile={ROOT / 'locks' / (profile + '.lock')}", "--format=json"]
+            f"--lockfile={ROOT / 'locks' / (profile + '.lock')}",
+            "-c:a", "tools.system.package_manager:mode=report", "--format=json"]
 
 
 def active_binaries(path):
